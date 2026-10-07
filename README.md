@@ -113,6 +113,12 @@ ros2 launch teleop_twist_gamepad teleop_twist_gamepad.launch.py \
   joy_linux_node_args:='{"output":"both","remappings":[["joy","joypad"]],"ros_arguments":["--log-level","debug"]}'
 ```
 
+## Gamepad setup software
+
+The [software directory](software/README.md) contains setup tools and practical instructions for supported gamepads. The [Logitech F710 guide](software/logitech_f710/README.md) covers receiver reconnection in Windows 10 and joystick calibration in Ubuntu, with screenshots and a reference copy of Logitech's connection utility.
+
+These resources are kept in the source repository and are not installed by the ROS package.
+
 ## Dependencies
 
 Runtime dependencies are:
